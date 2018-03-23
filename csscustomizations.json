@@ -1,0 +1,18 @@
+{
+  "extensions": [
+    {
+      "application": "CSS customizations",
+      "payload": {
+		"include-files":["csscustomizations.js","customization.css"],
+	    "include-repo":{"name": "csscustomizations-global"}
+      },
+      "name": "CSS customizations",
+      "type": "com.ibm.customizer.ui",
+	  "path": "global"
+    }
+  ],
+  "name": "CSS customizations",
+  "description": "CSS customizations",
+  "title": "CSS customizations",
+  "services": ["Customizer"]
+}
